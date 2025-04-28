@@ -3,11 +3,10 @@
     "app": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-d390bb.js",
         "/build/app.js"
       ],
       "css": [
-        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-d390bb.css",
+        "/build/vendors-node_modules_fontsource_roboto-condensed_index_css-node_modules_fortawesome_fontaweso-2f69db.css",
         "/build/app.css"
       ]
     }

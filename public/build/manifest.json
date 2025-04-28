@@ -2,8 +2,7 @@
   "build/app.css": "/build/app.css",
   "build/app.js": "/build/app.js",
   "build/runtime.js": "/build/runtime.js",
-  "build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-d390bb.css": "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-d390bb.css",
-  "build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-d390bb.js": "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-d390bb.js",
+  "build/vendors-node_modules_fontsource_roboto-condensed_index_css-node_modules_fortawesome_fontaweso-2f69db.css": "/build/vendors-node_modules_fontsource_roboto-condensed_index_css-node_modules_fortawesome_fontaweso-2f69db.css",
   "build/fonts/fa-solid-900.ttf": "/build/fonts/fa-solid-900.2582b0e4.ttf",
   "build/fonts/fa-brands-400.ttf": "/build/fonts/fa-brands-400.1815e004.ttf",
   "build/fonts/fa-solid-900.woff2": "/build/fonts/fa-solid-900.2463b90d.woff2",
@@ -19,7 +18,5 @@
   "build/fonts/roboto-condensed-greek-400-normal.woff2": "/build/fonts/roboto-condensed-greek-400-normal.a11231a2.woff2",
   "build/fonts/roboto-condensed-vietnamese-400-normal.woff2": "/build/fonts/roboto-condensed-vietnamese-400-normal.edbb62e5.woff2",
   "build/fonts/fa-v4compatibility.woff2": "/build/fonts/fa-v4compatibility.ea8f94e1.woff2",
-  "build/fonts/roboto-condensed-greek-ext-400-normal.woff2": "/build/fonts/roboto-condensed-greek-ext-400-normal.5df01ae6.woff2",
-  "build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-6e92b2.css": "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-6e92b2.css",
-  "build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-6e92b2.js": "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_fontsource_roboto-con-6e92b2.js"
+  "build/fonts/roboto-condensed-greek-ext-400-normal.woff2": "/build/fonts/roboto-condensed-greek-ext-400-normal.5df01ae6.woff2"
 }
