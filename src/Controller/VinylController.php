@@ -10,6 +10,7 @@ use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\DependencyInjection\Attribute\AutowireIterator;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Attribute\MapQueryParameter;
 use Symfony\Component\Routing\Annotation\Route;
 use function Symfony\Component\String\u;
 
@@ -22,14 +23,19 @@ class VinylController extends AbstractController
         private iterable $commands
     )
     {
+        /* Exemple
         foreach ($this->commands as $command) {
             dump($command);
         }
+        */
     }
 
     #[Route('/', name: 'app_homepage')]
-    public function homepage(): Response
+    public function homepage(
+        #[MapQueryParameter] string $query = ''
+    ): Response
     {
+        dump($query);
         $tracks = [
             ['song' => 'Gangsta\'s Paradise', 'artist' => 'Coolio'],
             ['song' => 'Waterfalls', 'artist' => 'TLC'],
