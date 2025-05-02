@@ -1,3 +1,4 @@
+import './bootstrap.js';
 /*
  * Welcome to your app's main JavaScript file!
  *
@@ -12,7 +13,6 @@ import '@fontsource-variable/roboto-condensed/index.min.css';
 import './styles/app.css';
 
 // start the Stimulus application
-import './bootstrap.js';
 
 console.log('Hi! My name is app.js!');
 
