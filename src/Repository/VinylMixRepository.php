@@ -40,7 +40,7 @@ class VinylMixRepository extends ServiceEntityRepository
         }
     }
 
-    public function createOrderedByVotesQueryBuilder(string $genre = null): QueryBuilder
+    public function createOrderedByVotesQueryBuilder(?string $genre = null): QueryBuilder
     {
         $queryBuilder = $this->addOrderByVotesQueryBuilder();
 
@@ -52,7 +52,7 @@ class VinylMixRepository extends ServiceEntityRepository
         return $queryBuilder;
     }
 
-    private function addOrderByVotesQueryBuilder(QueryBuilder $queryBuilder = null): QueryBuilder
+    private function addOrderByVotesQueryBuilder(?QueryBuilder $queryBuilder = null): QueryBuilder
     {
         $queryBuilder = $queryBuilder ?? $this->createQueryBuilder('mix');
 

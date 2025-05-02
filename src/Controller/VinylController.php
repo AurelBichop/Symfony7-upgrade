@@ -52,7 +52,7 @@ class VinylController extends AbstractController
     }
 
     #[Route('/browse/{slug}', name: 'app_browse')]
-    public function browse(VinylMixRepository $mixRepository, Request $request, string $slug = null): Response
+    public function browse(VinylMixRepository $mixRepository, Request $request, ?string $slug = null): Response
     {
         $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
 
